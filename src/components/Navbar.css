@@ -1,0 +1,138 @@
+
+/* Main Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a2e;
+  padding: 15px 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 70px;
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.logo-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+  padding: 2px;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-left: 1rem;
+}
+
+/* Desktop Links */
+.navbar-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.nav-item {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background: #16213e;
+  color: #00aaff;
+}
+
+.nav-item.active {
+  background: #00aaff;
+  color: white;
+  font-weight: 600;
+}
+
+/* Hamburger Menu (Mobile Trigger) */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Mobile Menu Settings */
+.mobile-menu {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: #1a1a2e;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 15px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.mobile-item {
+  color: #eaeaea;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.mobile-item:hover {
+  background: #16213e;
+  color: #00aaff;
+}
+
+.mobile-item.active {
+  background: #00aaff;
+  color: white;
+  font-weight: 600;
+}
+
+/* Responsive Behavior */
+@media (max-width: 1060px) {
+  .navbar-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body{
+  padding-top: 70px;
+}

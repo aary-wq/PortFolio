@@ -1,0 +1,32 @@
+.footer {
+    background-color: #000000; /* black background */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* small spacing between icons */
+    margin-bottom: 8px;
+  }
+  
+  .footer-icons a {
+    color: white;
+    font-size: 1.6rem; /* small icon size */
+    transition: 0.2s;
+  }
+  
+  .footer-icons a:hover {
+    color: #38bdf8; /* hover effect */
+    transform: scale(1.2);
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin: 0;
+  }
+  
