@@ -238,13 +238,16 @@
   }
 
   .education-card {
-    padding-left: 80px;
-    padding-right: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .card-content {
     flex-direction: column;
     padding: 25px 20px;
+    width: 100%;
+    max-width: 520px;
   }
 
   .card-icon {
@@ -286,43 +289,73 @@
 }
 
 @media (max-width: 480px) {
-  .education-container {
-    padding: 80px 15px 40px;
-  }
-
-  .education-title {
-    font-size: 2rem;
-  }
-
 
   .education-card {
-    padding-left: 60px;
+    padding: 0;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
   }
 
   .card-content {
-    padding: 20px 15px;
+    padding: 18px 14px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .degree-name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
 
+  .institution-name {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* FIX: Center + shrink last card items */
   .education-info {
+    width: 50%;
+    display: flex;
     flex-direction: column;
-    gap: 12px;
+    align-items: center;
+    gap: 10px;
   }
 
-  .achievements-section {
-    padding-top: 40px;
+  .info-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
 
-  .achievements-title {
-    font-size: 1.75rem;
+  .info-item svg {
+    width: 16px;
+    height: 16px;
   }
 
-  .achievement-item {
-    padding: 25px 20px;
+  .grade-text,
+  .duration-text {
+    font-size: 1rem !important;
   }
 
+  .card-icon svg {
+    width: 34px;
+    height: 34px;
+  }
+
+  .card-badge {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    align-self: center;
+  }
 }

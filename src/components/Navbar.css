@@ -136,3 +136,34 @@
 body{
   padding-top: 70px;
 }
+@media (max-width: 520px) {
+
+  .navbar {
+    padding: 10px 16px;
+    box-sizing: border-box;
+  }
+
+  /* Logo container */
+  .navbar-logo {
+    gap: 8px;
+  }
+
+  /* Logo image shrink */
+  .logo-img {
+    width: 42px;
+    height: 42px;
+  }
+
+  /* Logo text shrink */
+  .logo-text {
+    font-size: 1.05rem;
+    margin-left: 6px;
+    white-space: nowrap;
+  }
+
+  /* Hamburger fully visible */
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+}
