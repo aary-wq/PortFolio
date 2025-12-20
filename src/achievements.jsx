@@ -7,7 +7,7 @@ const experiences = [
       position: "Python Intern",
       company: "Infeanet Digital Media",
       duration: "2022",
-      description: "Developed automated data processing scripts using Python and contributed to backend API development. Worked with pandas and NumPy for data analysis and visualization."
+      description: "Learned core concepts in Python as well as gained experience in Python Programming. Gained hands-on experience by applying Python concepts in practical programming tasks."
     },
     {
       logo: iconLogo,
@@ -37,8 +37,8 @@ const experiences = [
       ),
       competition: "Bugfather",
       position: "2nd Runner Up",
-      description: "Identified critical security vulnerabilities in web applications",
-      year: "2024"
+      description: "Identified critical bugs in DSA related code snippets",
+      year: "2025"
     },
     {
       icon: (
@@ -50,7 +50,7 @@ const experiences = [
       competition: "CodeFlix",
       position: "2nd Runner Up",
       description: "Built a full-stack streaming platform with real-time features",
-      year: "2024"
+      year: "2025"
     },
     {
       icon: (
@@ -61,7 +61,7 @@ const experiences = [
       ),
       competition: "AISSMS Techathon",
       position: "4th Position",
-      description: "Developed an AI-powered solution for smart campus management",
+      description: "Developed a solution for disaster relief and coordination",
       year: "2025"
     },
     {
@@ -75,7 +75,7 @@ const experiences = [
       ),
       competition: "ISIH",
       position: "Top 40",
-      description: "Pitched innovative healthcare solution at national innovation challenge",
+      description: "Pitched innovative an Alumni Connection Platform to connect alumni and students",
       year: "2025"
     }
   ];
@@ -90,7 +90,7 @@ const experiences = [
         </svg>
       ),
       title: "Research Publications",
-      description: "Published multiple research papers at prestigious international conferences including IEEE, Springer, etc. The conferences included iCare-2024, ISAECT-2025, rTIME- 2025. Topics covered include machine learning applications, Interne of Things, and Intelligent Computing."
+      description: "Published multiple research papers at prestigious international conferences including IEEE, Springer, etc. The conferences included iCare-2024, ISAECT-2025, rTIME- 2025. Topics covered include machine learning applications, Internet of Things, and Intelligent Computing."
     };
 
   export { experiences, achievements ,publications };

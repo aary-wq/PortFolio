@@ -7,7 +7,7 @@ function Education() {
       degree: "B.Tech in Information Technology",
       institution: "Vishwakarma Institute of Technology, Pune",
       grade: "9.21 CGPA",
-      duration: "2024 - Current",
+      duration: "2024 - 2027",
       icon: (
         <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
@@ -74,7 +74,7 @@ function Education() {
                       <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                       <circle cx="12" cy="7" r="4"></circle>
                     </svg>
-                    <span className="grade-text" style={{fontSize:"1.3rem"}}><b>{edu.grade}</b></span>
+                    <span className="grade-text"><b>{edu.grade}</b></span>
                   </div>
                   
                   <div className="info-item">
@@ -84,7 +84,7 @@ function Education() {
                       <line x1="8" y1="2" x2="8" y2="6"></line>
                       <line x1="3" y1="10" x2="21" y2="10"></line>
                     </svg>
-                    <span className="duration-text" style={{fontSize:"1.3rem"}}><b>{edu.duration}</b></span>
+                    <span className="duration-text"><b>{edu.duration}</b></span>
                   </div>
                 </div>
               </div>
