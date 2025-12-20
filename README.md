@@ -5,7 +5,7 @@ A modern, responsive personal portfolio website built to showcase my projects, s
 ---
 
 ## 🚀 Live Demo
-🔗 *Deployed Link:* [https://port-folio-5jawlw55j-aary-bokils-projects.vercel.app/] 
+🔗 *Deployed Link:* [https://port-folio-5jawlw55j-aary-bokils-projects.vercel.app/]
 
 ---
 
