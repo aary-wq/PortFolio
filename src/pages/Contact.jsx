@@ -70,7 +70,7 @@ function Contact() {
       <div className="contact-content">
         {/* Left Side - Contact Information */}
         <div className="contact-info">
-          <div className="info-item">
+          <div className="info-item1">
             <div className="info-icon">
               <FaEnvelope />
             </div>
@@ -83,7 +83,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="info-item">
+          <div className="info-item1">
             <div className="info-icon">
               <FaPhone />
             </div>
@@ -93,7 +93,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="info-item">
+          <div className="info-item1">
             <div className="info-icon">
               <FaMapMarkerAlt />
             </div>

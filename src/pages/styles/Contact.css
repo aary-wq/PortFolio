@@ -90,7 +90,7 @@
   gap: 25px;
 }
 
-.info-item {
+.info-item1 {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -102,7 +102,7 @@
   transition: all 0.3s ease;
 }
 
-.info-item:hover {
+.info-item1:hover {
   transform: translateY(-3px);
   border-color: rgba(59, 130, 246, 0.35);
 }
@@ -121,7 +121,7 @@
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.info-item:hover .info-icon {
+.info-item1:hover .info-icon {
   transform: scale(1.15);
   color: #60a5fa;
 }
@@ -252,6 +252,7 @@
 @media (max-width: 768px) {
   .contact-section {
     padding: 80px 15px 40px;
+    align-items: center;
   }
 
   .contact-title {
@@ -277,7 +278,7 @@
     gap: 30px;
   }
 
-  .info-item {
+  .info-item1 {
     padding: 20px;
     gap: 15px;
   }
@@ -328,7 +329,10 @@
   .contact-section {
     padding: 70px 12px 30px;
   }
-
+  .contact-info {
+    width: 100%;
+    align-items: stretch;
+  }
   .contact-title {
     font-size: 28px;
   }
@@ -353,11 +357,12 @@
     gap: 25px;
   }
 
-  .info-item {
+  .info-item1 {
     padding: 18px;
     gap: 12px;
     flex-direction: column;
     text-align: center;
+    width: 100%;          
   }
 
   .info-icon {
@@ -422,7 +427,7 @@
     font-size: 22px;
   }
 
-  .info-item {
+  .info-item1 {
     padding: 15px;
   }
 
